@@ -11,9 +11,9 @@ System.out.println("Enter your username: ");
 String username=sc.next();
 System.out.println("Enter your Password: ");
 String password=sc.next();
-if(username.equals("Rithika") && password.equals("Rithi@04")) {
+if(username.equals("Preethi") && password.equals("Preethi01")) {
 CameraOperations.InitializeList();
-System.out.println("Created by Enolaur");
+System.out.println("Created by Preethi");
 mainMenu();
 }
 else {
