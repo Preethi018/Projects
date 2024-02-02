@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000023959EE2AD0" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{7ED88C8B-3E0A-43C9-9DBA-0384BB9D741F}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{4A983233-143C-4009-95E3-FE331D5359D3}</link>
+      <value _ptr_="000002395A490360" type="dict" key="loginInfo">
+        <value type="string" key="wmi.hostName"></value>
+        <value type="string" key="wmi.userName"></value>
+      </value>
+      <value _ptr_="000002395A4903C0" type="dict" key="serverInfo">
+        <value type="string" key="basedir">C:\Program Files\MySQL\MySQL Server 8.0\</value>
+        <value type="string" key="datadir">C:\ProgramData\MySQL\MySQL Server 8.0\Data\</value>
+        <value type="string" key="errorLogFilePath">GOKUL.err</value>
+        <value type="string" key="generalLogFilePath">GOKUL.log</value>
+        <value type="string" key="serverVersion">8.0.34</value>
+        <value type="int" key="setupPending">1</value>
+        <value type="int" key="slowLogEnabled">1</value>
+        <value type="string" key="slowLogFilePath">GOKUL-slow.log</value>
+        <value type="string" key="sys.config.path">C:\ProgramData\MySQL\MySQL Server 8.0\my.ini</value>
+        <value type="int" key="sys.config.path.lock">1</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name">MySQL80</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.system">Windows</value>
+        <value type="int" key="sys.usesudo">0</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">Local MySQL80</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{8A631966-9308-40FA-956B-02AB50ABD122}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{55EE0F7D-80E5-438F-9AB9-175F97802404}</link>
+      <value _ptr_="000002395A48FB80" type="dict" key="loginInfo">
+        <value type="string" key="ssh.hostName"></value>
+        <value type="string" key="ssh.key">C:\Users\gokul\AppData\Roaming/.ssh/ssh_private_key</value>
+        <value type="string" key="ssh.localPort">3306</value>
+        <value type="int" key="ssh.useKey">0</value>
+        <value type="string" key="ssh.userName">mysql</value>
+      </value>
+      <value _ptr_="000002395A48F5E0" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">Preethi</value>
+    </value>
+  </value>
+</data>

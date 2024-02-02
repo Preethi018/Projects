@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000023959EE2A60" type="list" content-type="object" content-struct-name="db.mgmt.Connection">
+    <value type="object" struct-name="db.mgmt.Connection" id="{4A983233-143C-4009-95E3-FE331D5359D3}" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@localhost:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="000002395A48FD60" type="dict" key="modules"/>
+      <value _ptr_="000002395A490600" type="dict" key="parameterValues">
+        <value type="string" key="hostName">localhost</value>
+        <value type="int" key="lastConnected">1703232449</value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="serverVersion">8.0.34</value>
+        <value type="string" key="userName">root</value>
+      </value>
+      <value type="string" key="name">Local instance MySQL80</value>
+      <link type="object" struct-name="GrtObject" key="owner">{970DE710-B0EC-42F6-83B4-85D029B4E34C}</link>
+    </value>
+    <value type="object" struct-name="db.mgmt.Connection" id="{55EE0F7D-80E5-438F-9AB9-175F97802404}" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@127.0.0.1:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="000002395A4902A0" type="dict" key="modules"/>
+      <value _ptr_="000002395A4901E0" type="dict" key="parameterValues">
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">127.0.0.1</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema"></value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">root</value>
+      </value>
+      <value type="string" key="name">Preethi</value>
+      <link type="object" struct-name="GrtObject" key="owner">{970DE710-B0EC-42F6-83B4-85D029B4E34C}</link>
+    </value>
+  </value>
+</data>
